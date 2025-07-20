@@ -1,65 +1,47 @@
 # 🏠 InteriorDesignPro
 
-A modern and elegant web application for showcasing interior design projects. Built using **Flask**, **HTML/CSS**, and **Bootstrap**, this app allows users to explore featured projects, learn about services, and get in touch via a contact form.
+# 📌 Project Overview
 
----
-## 📖 Overview
+This is a modern web application built primarily to showcase **end-to-end DevOps practices**. It includes both frontend and backend components, integrated with a complete **DevOps workflow for CI/CD, monitoring, and cloud-native infrastructure management**.
 
-**InteriorDesignPro** is designed for interior designers and design studios to present their work in a clean and engaging format. It features:
-
-- A stylish homepage with hero and CTA sections.
-- About and Project pages to explain expertise.
-- Contact page with form submission.
-- Responsive UI with elegant styling and modern layout.
 
 ---
 
-## 🚀 Features
+### 🛠️ Tech Stack Used
 
-- 🖼️ Hero section with dynamic image
-- 📁 Project gallery with modern cards
-- 🧾 About page with structured company story
-- 📬 Contact form (with Flask back-end)
-- 🧑‍💻 Clean and modular HTML templates
-- 🎨 Custom CSS for each section
-- 📱 Fully responsive design
+#### 🧑‍💻 Frontend & Backend
+- **Frontend**: HTML, CSS, JavaScript  
+- **Backend**: Node.js 
+- **Version Control**: Git, GitHub  
 
----
+#### ⚙️ CI/CD & DevOps
+- **CI/CD**: GitHub Actions  
+- **EC2 as a Self-hosted Runner** for pipeline execution  
+- **Containerization**: Docker  
+- **Infrastructure as Code**: Terraform 
 
-## 🧰 Tech Stack
+#### ☁️ AWS Cloud Services
+- **EC2** – For self-hosted GitHub runner  
+- **S3** – Hosting static files/images  
+- **DynamoDB** – NoSQL data storage  
+- **VPC** – Isolated networking setup  
+- **CloudWatch** – Monitoring and alerting  
+- **ALB Ingress Controller** – Managing external access to Kubernetes services via AWS Application Load Balancer
 
-- **Frontend**: HTML5, CSS3, Bootstrap 5
-- **Backend**: Python 3, Flask
-- **Deployment**: Flask local server 
+#### 🧵 Kubernetes & Orchestration
+- **Kubernetes** – Application orchestration  
+- **Helm & Helm Charts** – For packaging and deploying Kubernetes resources  
+- **ALB Ingress Controller** – For scalable, production-grade routing with AWS ALB  
 
----
+#### 🔍 Monitoring & Security
+- **Loki** – Centralized log aggregation
+- **Promtail** – Log shipping agent used with Loki to collect logs from Kubernetes pods
+- **CloudWatch** – AWS-native monitoring and alerting
+- **Prometheus & Grafana** – Metrics collection and dashboard visualization
+- **SonarQube** – Code quality and static analysis
+- **Trivy** – Container vulnerability scanning
+- **Docker Scout** – Security insights and image analysis
 
-## 📁 Project Structure
-
-```bash
-interior-web-app/
-├── app
-│   ├── __init__.py
-│   ├── routes.py
-│   ├── templates
-│   │   ├── base.html
-│   │   ├── home.html
-│   │   ├── about.html
-│   │   ├── projects.html
-│   │   └── contact.html
-│   └── static
-│       ├── css
-│       │   └── styles.css
-│       │   └── navbar.css
-│       │   └── footer.css
-│       │   └── home.css
-│       │   └── contact.css
-│       │   └── projects.css
-│       │   └── about.css
-├── requirements.txt
-├── run.py
-└── README.md
-````
 
 ---
 
@@ -96,12 +78,8 @@ interior-web-app/
 
 ---
 
-## 🤝 Contributing
 
-Contributions are welcome! Please follow these steps:
+## 👨‍💻 Author
 
-1. Fork this repository.
-2. Create a new branch (`feature-branch`).
-3. Make your changes and commit (`git commit -m 'Add new feature'`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Open a pull request.
+This project is maintained by [Prasad Rasal](https://github.com/rasalprasad2002).  
+Feel free to check out my other work or get in touch!
